@@ -26,7 +26,40 @@
         float:left;
         border-left: 2px #cccccc solid;
         height: 100%;
+        box-sizing: border-box;
       }
+
+       #menu-signin-div:hover {
+        border-bottom: 2px violet solid;
+       }
+
+       #menu-news-div:hover {
+        border-bottom: 2px olive solid;
+       }
+
+       #menu-sport-div:hover {
+        border-bottom: 2px aqua solid;
+       }
+
+       #menu-weather-div:hover {
+        border-bottom: 2px burlywood solid;
+       }
+
+       #menu-shop-div:hover {
+        border-bottom: 2px cadetblue solid;
+       }
+
+       #menu-earth-div:hover {
+        border-bottom: 2px darkorchid solid;
+       }
+
+       #menu-travel-div:hover {
+        border-bottom: 2px firebrick solid;
+       }
+
+       #menu-more-div:hover {
+        border-bottom: 2px khaki solid;
+       }
 
       #signin-image {
         width: 30px;
@@ -105,29 +138,29 @@
   <body>
     <div id="topbar">
        <img id="logo" src="images/bbc-blocks-dark.png" alt="bbc logo">
-       <div id="signin-div" class="topbar-section">
+       <div class="topbar-section" id="menu-signin-div">
          <img src="images/bbc-signin.png" alt="siginin-image" id="signin-image">
          <span id="signin-text">Sign in</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section" id="menu-news-div" >
          <span class="topbar-menu">News</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section" id="menu-sport-div">
          <span class="topbar-menu">Sport</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section" id="menu-weather-div">
          <span class="topbar-menu">Weather</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section"  id="menu-shop-div">
          <span class="topbar-menu">Shop</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section"  id="menu-earth-div">
          <span class="topbar-menu">Earth</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section" id="menu-travel-div">
          <span class="topbar-menu">Travel</span>
        </div>
-       <div class="topbar-section">
+       <div class="topbar-section" id="menu-more-div">
         <span class="topbar-menu" id="topbar-more">More</span>
         <div id="menu" onclick="changeMenu(this)">
           <div id="menu-bar1"></div>
